@@ -7,11 +7,11 @@ require "omniauth-redu/version"
 Gem::Specification.new do |s|
   s.name        = "omniauth-redu"
   s.version     = OmniauthRedu::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of OmniauthRedu."
-  s.description = "TODO: Description of OmniauthRedu."
+  s.authors     = ["Guilherme Cavalcanti"]
+  s.email       = ["guiocavalcanti@gmail.com"]
+  s.homepage    = "http://developers.redu.com.br"
+  s.summary     = "Omniauth strategy for redu.com.br"
+  s.description = "Using this Gem you'll be able to use Redu's oatuh2 provider."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
