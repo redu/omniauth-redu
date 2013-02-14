@@ -15,7 +15,7 @@ Implementação de estratégia de autenticação do OAuth 2.0 para Ruby.
 Adicione a seguinte dependência no seu Gemfile:
 
 ```ruby
-gem 'omniauth-redy', :git => 'https://github.com/redu/omniauth-redu.git'
+gem 'omniauth-redu', :git => 'https://github.com/redu/omniauth-redu.git'
 ```
 
 Execute o comando ``bundle install`` para baixar e instalar a dependência.
