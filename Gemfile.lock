@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    omniauth-redu (0.0.1.alpha)
+    omniauth-redu (0.0.1)
       omniauth-oauth2
       rails (~> 3.2.2)
 
@@ -39,7 +39,7 @@ GEM
     builder (3.0.4)
     columnize (0.3.6)
     erubis (2.7.0)
-    faraday (0.8.5)
+    faraday (0.8.6)
       multipart-post (~> 1.1)
     hashie (1.2.0)
     hike (1.2.1)
@@ -60,8 +60,8 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.21)
     multi_json (1.5.1)
-    multipart-post (1.1.5)
-    oauth2 (0.8.0)
+    multipart-post (1.2.0)
+    oauth2 (0.8.1)
       faraday (~> 0.8)
       httpauth (~> 0.1)
       jwt (~> 0.1.4)
