@@ -20,6 +20,16 @@ gem 'omniauth-redu'
 
 Execute o comando ``bundle install`` para baixar e instalar a dependência.
 
+### Tokens
+
+[Registre sua aplicação](http://redu.com.br/aplicativos/criar) no Redu e crie um initializer declarando o ``consumer_id`` e ``consumer_scret``:
+
+```ruby
+Rails.application.config.middleware.use OmniAuth::Builder do
+  provider :redu,  "consumer_id", "consumer_secret"
+end
+```
+
 ### Rotas
 
 É necessário fazer o mapeamente entre URL e actions nos controllers da sua aplicação. Para isso edite o arquivo ``config/routes.rb`` e adicione as seguintes rotas:
